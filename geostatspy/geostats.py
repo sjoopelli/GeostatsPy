@@ -318,8 +318,10 @@ def gcum(x):
     """Evaluate the standard normal cdf given a normal deviate `x`. `gcum` is
     the area under a unit normal curve to the left of `x`. The results are
     accurate only to about 5 decimal places.
-    :param x: TODO
-    :return: TODO
+    :param x: normal deviate used to find standard normal cdf
+    :type x: float
+    :return: area under normal curve
+    :type return: float
     """
     z = x
     if z < 0:
